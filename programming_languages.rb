@@ -49,7 +49,7 @@ require 'pry'
 def reformat_languages(languages)
 new_hash = {}
 languages.each do |style_of, lang_of|
-  lang_of.each do |type_of|
+  lang_of.each do |type_of, value|
     #new_hash[lang_of][:type] = 
     #new_hash[lang][:style] << key
     binding.pry
